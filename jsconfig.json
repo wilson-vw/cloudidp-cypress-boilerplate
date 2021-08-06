@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "checkJs": true
+    },
+    "include": [
+        "node_modules/cypress",
+        "./cypress/**/*.js"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*",
+        "dist",
+        "node_modules",
+        "build",
+        ".vscode",
+        ".nuxt",
+        "coverage",
+        "jspm_packages",
+        "tmp",
+        "temp",
+        "bower_components",
+        ".npm",
+        ".yarn"
+    ],
+    "typeAcquisition": {
+        "enable": true,
+        "include": [
+            "node_modules/cypress",
+            "./cypress/**/*.js"
+        ]
+    }
+}

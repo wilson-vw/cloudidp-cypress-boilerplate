@@ -1,0 +1,20 @@
+{
+  "name": "cypress-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple yet effective way to start doing e2e",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "E2E",
+    "Tests"
+  ],
+  "author": "Wilson Mália",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.0",
+    "cypress": "^8.2.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-cypress": "^2.11.3"
+  }
+}
