@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A simple yet effective way to start doing e2e",
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "keywords": [
     "E2E",
@@ -14,7 +15,10 @@
   "devDependencies": {
     "@testing-library/cypress": "^8.0.0",
     "cypress": "^8.2.0",
+    "cypress-dotenv": "^1.2.2",
+    "dotenv": "^8.6.0",
     "eslint": "^7.32.0",
-    "eslint-plugin-cypress": "^2.11.3"
+    "eslint-plugin-cypress": "^2.11.3",
+    "otplib": "^12.0.1"
   }
 }

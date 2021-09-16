@@ -1,5 +1,6 @@
 {
   "video": false,
+  "fixtures": false,
   "integrationFolder": "./cypress/e2e/",
   "testFiles": "**/*.e2e.js",
   "chromeWebSecurity": false,
